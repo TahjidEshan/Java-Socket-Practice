@@ -3,11 +3,11 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.bracu.server.services;
+//package com.bracu.server.services;
 
-import com.bracu.server.services.exceptionset.StudentNotFoundException;
-import com.bracu.server.services.exceptionset.NoSuchDepartmentException;
-import com.bracu.server.services.exceptionset.StudentAlreadyExistsException;
+import server.services.exceptionset.StudentNotFoundException;
+import server.services.exceptionset.NoSuchDepartmentException;
+import server.services.exceptionset.StudentAlreadyExistsException;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

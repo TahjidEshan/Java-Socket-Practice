@@ -7,7 +7,7 @@
  *
  * @author Eshan
  */
-package com.bracu.server.services.exceptionset;
+//package com.bracu.server.services.exceptionset;
 
 public class StudentNotFoundException extends BaseException {
 
