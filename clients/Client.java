@@ -1,4 +1,4 @@
-package com.bracu.clients;
+//package com.bracu.clients;
 
 import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
@@ -26,7 +26,7 @@ public class Client {
     }
 
     private boolean connectToServer(String serverIP) {
-        try { // open a new socket to the server 
+        try { // open a new socket to the server
             this.socket = new Socket(serverIP, portNumber);
             this.os = new ObjectOutputStream(this.socket.getOutputStream());
             this.is = new ObjectInputStream(this.socket.getInputStream());
