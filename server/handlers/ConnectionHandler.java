@@ -1,23 +1,23 @@
-package com.bracu.server.handlers;
+//package com.bracu.server.handlers;
 
-import com.bracu.server.services.CalendarService;
-import com.bracu.server.services.Course;
-import com.bracu.server.services.CourseManager;
-import com.bracu.server.services.Faculty;
-import com.bracu.server.services.FacultyManager;
-import com.bracu.server.services.StudentManager;
+import server.services.CalendarService;
+import server.services.Course;
+import server.services.CourseManager;
+import server.services.Faculty;
+import server.services.FacultyManager;
+import server.services.StudentManager;
 
 import java.net.*;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
-import com.bracu.server.services.exceptionset.DepartmentAlreadyExistsException;
-import com.bracu.server.services.exceptionset.FacultyInitialAlreadyExistsException;
-import com.bracu.server.services.exceptionset.FacultyNotFoundException;
-import com.bracu.server.services.exceptionset.NoSuchCourseException;
-import com.bracu.server.services.exceptionset.NoSuchDepartmentException;
-import com.bracu.server.services.exceptionset.StudentAlreadyExistsException;
-import com.bracu.server.services.exceptionset.StudentNotFoundException;
+import server.services.exceptionset.DepartmentAlreadyExistsException;
+import server.services.exceptionset.FacultyInitialAlreadyExistsException;
+import server.services.exceptionset.FacultyNotFoundException;
+import server.services.exceptionset.NoSuchCourseException;
+import server.services.exceptionset.NoSuchDepartmentException;
+import server.services.exceptionset.StudentAlreadyExistsException;
+import server.services.exceptionset.StudentNotFoundException;
 
 public class ConnectionHandler {
 
